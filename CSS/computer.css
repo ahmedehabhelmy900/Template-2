@@ -1,0 +1,48 @@
+/* start header */
+   /* start nav bar */
+        header hr{
+            max-width: 1010px;
+        }
+    /* end nav bar */
+    .landing-parag{
+        height: 328px;
+        margin-top: -164px;
+        top: 50%;
+    }
+    .landing-parag p,
+    .landing-parag h2{
+        margin-left: 50px;
+    }
+/* end header */
+/* start portfolio */
+    .portfolio .content-portfolio > div{
+        max-width: 25%;
+    }
+/* end portfolio */
+/* start about */
+    .content-10 .container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+/* end about */
+/* start progress */
+    section .container{
+        flex-wrap: nowrap;
+    }
+    section > div{
+        width: calc(50% - 50px);
+    }
+/* end progress */
+/* start pricing */
+    .pricing-content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+/* end pricing */
+/* start subscribe */
+    .subscribe .container{
+        flex-wrap: nowrap;
+        margin-top: 50px;
+    }
+    .subscribe p{
+        padding-left: 50px;
+    }
+/* end subscribe */

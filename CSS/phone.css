@@ -1,0 +1,123 @@
+/* start header */
+    /* start nav bar */
+        .fa-bars{
+            color: white;
+            position: absolute;
+            right: 56px;
+            top: -45px;
+            padding-right: 25px;
+        }
+        nav ul:hover li{
+            display: block;
+        }
+        header ul i{
+            display: block;
+            position: absolute;
+            top: -55px;
+            right: 20px;
+        }
+        header hr{
+            margin-top: 10px;
+        }
+        header ul{
+            padding: 0px;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            z-index: 2;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .kl{
+            color: var(--color);
+        }
+        nav ul .kl::before{
+            content: "";
+            height: 2px;
+            width: calc(100% + 40px);
+            position: absolute;
+            margin-bottom: 10px;
+            bottom: -10px;
+            left: -20px;
+            background-color: var(--color);
+        }
+        header ul li{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: none;
+        }
+        header ul li:nth-child(2){
+            padding-top: 15px;
+        }
+    /* end nav bar */
+    .landing i{
+        display: none;
+    }
+    .landing-parag{
+        width: 100%;
+    }
+    .landing-circle{
+        display: none;
+    }
+/* end header */
+/* start design */
+    .content{
+        width: 100%;
+    }
+    .design img{
+        display: none;
+    } 
+/* end design */
+/* start portfolio */
+    .portfolio .content-portfolio > div{
+        width: 100%;
+    }
+/* end portfolio */
+/* start about */
+    .content-10 .container{
+        grid-template-columns: 1fr;
+    }
+    .img{
+        top: 450px;
+    }
+/* end about */
+/* start progress */
+    section .container{
+        flex-wrap: wrap;
+    }
+    section .p-1::after,
+    section .p-2::after{
+        width: 100%;
+    }
+    section .i{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 20px !important;
+    }
+/* end progress */
+/* start pricing */
+    .pricing-content{
+        grid-template-columns: 1fr;
+    }
+    .pricing-content li{
+        visibility: visible;
+    }
+/* end pricing */
+/* start subscribe */
+    .subscribe .container{
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    .subscribe .container form{
+        width: 90%;
+    }
+    .subscribe .container form input:last-child{
+        position: absolute;
+        right: 0;
+    }
+/* end subscribe */
+/* start contact */
+    .info-form > div{
+        align-items: center !important;
+    }
+/* end contact */

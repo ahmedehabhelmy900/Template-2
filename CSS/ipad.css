@@ -1,0 +1,85 @@
+/* start header */
+    /* start nav bar */
+        nav .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul{
+            display: flex;
+        }
+        header hr{
+            width: calc(100% + 37.5px);
+        }
+        .fa-bars{
+            display: none;
+        }
+        nav li:hover::before,
+        nav ul .kl::before{
+            content: "";
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            bottom: -18px;
+            left: 0px;
+            background-color: var(--color);
+            transition-duration: 0.5s;
+        }
+    /* end nav bar */
+    .landing-parag{
+        margin-top: 30px;
+    }
+    .landing-circle{
+        display: block;
+    }
+/* end header */
+/* start design */
+    .content{
+        width: 50%;
+    }
+/* end design */
+/* start portfolio */
+    .portfolio .content-portfolio > div{
+        width: 50%;
+    }
+/* end portfolio */
+/* start about */
+    .content-10 .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+/* end about */
+/* start progress */
+    section .container{
+        flex-wrap: wrap;
+    }
+    section .not-img{
+        margin-left: 150px;
+    }
+    section .p-1::after,
+    section .p-2::after{
+        width: calc(100% - 150px);
+    }
+/* end progress */
+/* start pricing */
+    .pricing-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+/* end pricing */
+/* start subscribe */
+    .subscribe .container{
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+/* end subscribe */
+/* start contact */
+    .contact .form .container{
+        grid-template-columns: 62% 33%;
+        justify-content: space-between;
+    }
+    .contact .form .container > form{
+        order: 1;
+    }
+    .contact .form .container > div{
+        order: 2;
+    }
+/* end contact */
